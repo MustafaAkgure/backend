@@ -3,7 +3,7 @@ services:
   mysql:
     image: mysql:8.0.17
     # volumes:
-    #   - ~/volumes/jhipster/jhipster/mysql/:/var/lib/mysql/
+    #   - ~/volumes/mysql/:/var/lib/mysql/
     environment:
       - MYSQL_USER=root
       - MYSQL_PASSWORD=root
